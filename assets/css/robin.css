@@ -81,3 +81,19 @@ fix {
   transition: all 0.5s ease 0s;
 }
 
+.responsive-iframe {
+  width: 480px;
+  height: 52px;
+}
+
+/* Media query for screens smaller than 576px */
+
+@media (max-width: 575px) {
+  .responsive-iframe {
+    width: 100%;
+  }
+}
+
+.beehiv {
+}
+

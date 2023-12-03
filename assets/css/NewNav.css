@@ -443,13 +443,13 @@ a:hover {
 
 .text-brand {
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 @media (max-width: 767px) {
   .text-brand {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -461,6 +461,14 @@ a:hover {
   background-color: #2eca6a;
   color: #ffffff;
   border-radius: 0;
+}
+
+@media (max-width: 575px) {
+  .btn.btn-b-n {
+    background-color: #26a356;
+    color: #ffffff;
+    display: none;
+  }
 }
 
 .btn.btn-b-n:hover {
